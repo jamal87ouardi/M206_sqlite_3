@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Premier EditText -->
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="ID"/>
+
+    <!-- Deuxième EditText -->
+    <EditText
+        android:id="@+id/Nom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Nom"/>
+
+    <!-- Troisième EditText -->
+    <EditText
+        android:id="@+id/Prix"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Prix"/>
+
+    <!-- Quatrième EditText -->
+    <EditText
+        android:id="@+id/Quantite"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Quantite"/>
+
+   <Switch
+       android:id="@+id/withAcc"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="30dp"
+       android:text="avec accessoires"
+
+       />
+
+    <!-- Premier bouton -->
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Add"/>
+
+    <!-- Deuxième bouton -->
+    <Button
+        android:id="@+id/List"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="List"/>
+
+</LinearLayout>
